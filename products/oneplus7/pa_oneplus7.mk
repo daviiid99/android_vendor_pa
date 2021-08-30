@@ -39,6 +39,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=OnePlus7 \
     PRODUCT_NAME=OnePlus7 \
-    PRIVATE_BUILD_DESC="OnePlus7-user 10 QKQ1.190716.003 2003130755 release-keys"
+    PRIVATE_BUILD_DESC="OnePlus7-user 11   release-keys"
 
 endif
