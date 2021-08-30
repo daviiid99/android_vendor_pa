@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Check for target product
-ifeq (pa_oneplus7,$(TARGET_PRODUCT))
+ifeq (pa_guacamoleb,$(TARGET_PRODUCT))
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
