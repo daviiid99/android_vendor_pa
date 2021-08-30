@@ -22,14 +22,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit device configuration
-$(call inherit-product, device/oneplus/oneplus7/device.mk)
+$(call inherit-product, device/oneplus/guacamoleb/device.mk)
 
 # Inherit common PA configuration
 $(call inherit-product, vendor/pa/config/common_full_phone.mk)
 
 # Override build properties
-PRODUCT_NAME := pa_oneplus7
-PRODUCT_DEVICE := oneplus7
+PRODUCT_NAME := pa_guacamoleb
+PRODUCT_DEVICE := guacamoleb
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := OnePlus 7
 PRODUCT_MANUFACTURER := OnePlus
